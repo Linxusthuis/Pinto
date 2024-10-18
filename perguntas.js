@@ -80,7 +80,7 @@ criaCart(
 )
 criaCart(
     'geografia',
-    'onde fic ao brasil',
+    'onde fica o brasil',
     'fica na américa do sul'
 )
 criaCart(
