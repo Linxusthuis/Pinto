@@ -24,6 +24,9 @@ footer{
     gap: 3rem;
     flex-wrap: wrap;                
 }
-div.cont-cart{
-    display: ;
+.cont-cart{
+    flex-grow: 1;
+    flex-basis:  calc(33% - 6rem);
+    margin: 1rem;
+    height: 55rem;
 }
