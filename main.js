@@ -4,12 +4,12 @@ function criaCart(categoria, pergunta, resposta){
   cart.className = "cart";
   cart.innerHTML = `
 <div class="cont-cart">
-    <h3>categoria</h3>
+    <h3>${categoria}</h3>
     <div class="perg-cart">
-        <p>pergunta</p>
+        <p>${pergunta}</p>
     </div>
     <div class="res-cart">
-        <p>resposta</p>
+        <p>${resposta}</p>
     </div>
 </div>`
     container.appendChild(cart)
