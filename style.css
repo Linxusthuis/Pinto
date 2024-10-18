@@ -24,9 +24,14 @@ footer{
     gap: 3rem;
     flex-wrap: wrap;                
 }
-.cont-cart{
+.cart{
     flex-grow: 1;
     flex-basis:  calc(33% - 6rem);
     margin: 1rem;
     height: 5rem;
+}
+.cont-cart{
+    background-color: var(--cart);
+    text-align: center;
+    height:100% ;
 }
