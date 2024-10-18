@@ -34,6 +34,8 @@ footer{
     background-color: var(--cart);
     text-align: center;
     height:100% ;
+    transition: transform 300ms ease-in-out;
+    transform-style: preserve-3d;
 }
 .cont-cart h3{
     position: absolute;
@@ -44,6 +46,7 @@ footer{
     padding: 0.6rem;
     margin: 0.6rem;
     font-size: 1.6vw;
+   
 }
 .cont-cart p{
     margin:5rem;
