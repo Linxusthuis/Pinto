@@ -84,17 +84,17 @@ criaCart(
     'fica na américa do sul'
 )
 criaCart(
-    '',
-    'pergunta',
-    'resposta'
+    'historia',
+    'Freddy Mercury morreu do que?',
+    'AIDS'
 )
 criaCart(
-    'historia',
-    'pergunta',
-    'resposta'
+    'inglês',
+    'o que significa cock?',
+    'galo'
 )
 criaCart(
-    'historia',
-    'pergunta',
-    'resposta'
+    'sociologia',
+    'qual a causa do machismo',
+    'homens'
 )
