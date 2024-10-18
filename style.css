@@ -35,3 +35,13 @@ footer{
     text-align: center;
     height:100% ;
 }
+.cont-cart h3{
+    position: absolute;
+    text-align:left ;
+    color: var(--dest);
+    border: 1p solid var(--dest);
+    border-radius: 6px;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    font-size: 1.6vw;
+}
