@@ -70,5 +70,5 @@ footer{
     background-color: var(--invcart);
     color: var(--dest);
     border: 2px solid var(--deeznuts);
-    border-radius: 6px;
+    border-radius: 6rem;
 }
