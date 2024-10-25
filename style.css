@@ -59,4 +59,6 @@ footer{
 .perg-cart, .res-cart {
     backface-visibility: hidden;
 }
-.r
+.res-cart{
+    transform: rotateY('360');
+}
