@@ -3,7 +3,7 @@ function criaCart(categoria, pergunta, resposta){
     let cart = document.createElement('article');
     cart.className = "cart";
     cart.innerHTML = `
-  <div class="cont-cart" on-click="resp(this)">
+  <div class="cont-cart" onclick="resp(this)">
       <h3>${categoria}</h3>
       <div class="perg-cart">
           <p>${pergunta}</p>
