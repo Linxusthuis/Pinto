@@ -42,14 +42,14 @@ footer{
 }
 .cont-cart h3{
     position: absolute;
-    text-align:left ;
+    text-align:center ;
     color: var(--dest);
     border: 2px solid var(--deeznuts);
     border-radius: 6px;
     padding: 0.6rem;
     margin: 0.6rem;
     font-size: 1.6vw;
-   backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 .cont-cart p{
     margin:5rem;
@@ -68,6 +68,7 @@ footer{
 .res-cart{
     transform: rotateY(180deg);
     background-color: var(--invcart);
-    border: 2px solid var(--dest);
     color: var(--dest);
+    border: 2px solid var(--deeznuts);
+    border-radius: 6px;
 }
