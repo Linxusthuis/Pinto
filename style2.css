@@ -41,6 +41,7 @@ footer{
     border: 1px solid var(--deeznuts);
     padding: 40px;
     box-shadow: 7px -3px 13px 4px #1c0648;
+    cursor: pointer;
 }
 .cart:hover{
     transform: scale(1.02);
