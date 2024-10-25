@@ -43,5 +43,5 @@ footer{
     box-shadow: 7px -3px 13px 4px #1c0648;
 }
 .cart:hover{
-    transform: scale(1.04);
+    transform: scale(1.02);
 }
