@@ -18,6 +18,10 @@ header{
     justify-content: space-around;
     padding: 20px;
 }
+header a {
+    color: var(--branco);
+    text-decoration: none;
+}
 footer{
     background-color:var(--dest) ;
     position: fixed;
