@@ -5,6 +5,7 @@
     --dest:#53eaab;
     --preto:#000000;
     --branco:#fff;
+    --deeznuts:#ff00d4;
 }
 body{
     background: var(--fundo);
@@ -36,12 +37,14 @@ footer{
     height:100% ;
     transition: transform 300ms ease-in-out;
     transform-style: preserve-3d;
+    border: 2px solid var(--deeznuts);
+    border-radius: 2rem;
 }
 .cont-cart h3{
     position: absolute;
     text-align:left ;
     color: var(--dest);
-    border: 1p solid var(--dest);
+    border: 2p solid var(--deeznuts);
     border-radius: 6px;
     padding: 0.6rem;
     margin: 0.6rem;
