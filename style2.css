@@ -1,0 +1,31 @@
+:root{
+    --fundo: #000000;
+    --cart: #3300ff;
+    --invcart:#8200a9;
+    --dest:#53eaab;
+    --preto:#000000;
+    --branco:#fff;
+    --deeznuts:#ff00d4;
+}
+body{
+    background: var(--fundo);
+    margin: 0;
+    
+}
+header{
+    background-color: var(--dest);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+header a {
+    color: var(--branco);
+    text-decoration: none;
+}
+footer{
+    background-color:var(--dest) ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
