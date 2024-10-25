@@ -36,3 +36,9 @@ footer{
     padding: 20px;
 
 }
+.cart{
+    background-color: var(--cart);
+    border: 1px solid var(--deeznuts);
+    padding: 40px;
+    box-shadow: 2px 2px 2px var(--preto);
+}
