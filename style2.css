@@ -46,3 +46,8 @@ footer{
 .cart:hover{
     transform: scale(1.02);
 }
+.res-cart{
+    background-color: var(--invcart);
+    padding: 40px;
+    display: none;
+}
