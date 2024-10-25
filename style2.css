@@ -40,7 +40,7 @@ footer{
     background-color: var(--cart);
     border: 1px solid var(--deeznuts);
     padding: 40px;
-    box-shadow: 7px -3px 13px 4px var(--dest);
+    box-shadow: 7px -3px 13px 4px #1c0648;
 }
 .cart:hover{
     transform: scale(1.04);
