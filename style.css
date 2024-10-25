@@ -12,6 +12,12 @@ body{
     margin: 0;
     
 }
+header{
+    background-color: var(--dest);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
 footer{
     background-color:var(--dest) ;
     position: fixed;
