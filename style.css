@@ -53,7 +53,7 @@ footer{
     padding: 2rem;
     font-size: 1.4vw;
 }
-.cart:hover .cont-cart{
+.cart.active .cont-cart{
     transform: rotateY(180deg);
 }
 .perg-cart, .res-cart {

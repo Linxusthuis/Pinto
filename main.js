@@ -12,5 +12,12 @@ function criaCart(categoria, pergunta, resposta){
         <p>${resposta}</p>
     </div>
 </div>`
+    let respVis = false;
+    function viraCart(){
+        respVis = !respVis;
+        cart.classList.toggle('active',respVis);
+
+    }
+    cart.addEventListener('click', viraCart)
     container.appendChild(cart)
 }
