@@ -44,7 +44,7 @@ footer{
     position: absolute;
     text-align:left ;
     color: var(--dest);
-    border: 2p solid var(--deeznuts);
+    border: 2px solid var(--deeznuts);
     border-radius: 6px;
     padding: 0.6rem;
     margin: 0.6rem;
