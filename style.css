@@ -46,7 +46,7 @@ footer{
     padding: 0.6rem;
     margin: 0.6rem;
     font-size: 1.6vw;
-   
+   backface-visibility: hidden;
 }
 .cont-cart p{
     margin:5rem;
@@ -56,3 +56,7 @@ footer{
 .cart:hover .cont-cart{
     transform: rotateY(180deg);
 }
+.perg-cart, .res-cart {
+    backface-visibility: hidden;
+}
+.r
