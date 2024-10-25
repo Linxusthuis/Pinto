@@ -64,6 +64,7 @@ footer{
 }
 .res-cart{
     transform: rotateY(180deg);
-    border: 2px solid var(--invcart);
+    background-color: var(--invcart);
+    border: 2px solid var(--dest);
     color: var(--dest);
 }
