@@ -15,11 +15,11 @@ function criaCart(categoria, pergunta, resposta){
   container.appendChild(cart)
 }
 function resp(card){
-    const resposta = card.document.querySelector('.res-cart');
+    let resposta = card.document.querySelector('.res-cart');
     if (resposta.style.display === 'none'){
-        resposta.style.display = 'block'
+        resposta.style.display = 'block';
     }
     else{
-        resposta.style.display = 'none'
+        resposta.style.display = 'none';
     }
 }
