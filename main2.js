@@ -8,7 +8,7 @@ function criaCart(categoria, pergunta, resposta){
       <div class="perg-cart">
           <p>${pergunta}</p>
       </div>
-      <div class="res-cart" onclick="resp(this)">
+      <div class="res-cart" >
           <p>${resposta}</p>
       </div>
   </div>`
