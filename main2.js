@@ -15,7 +15,7 @@ function criaCart(categoria, pergunta, resposta){
   container.appendChild(cart)
 }
 function resp(cart){
-    let resposta = cart.document.querySelector('.res-cart');
+    let resposta = cart.querySelector('.res-cart');
     if (resposta.style.display === 'none'){
         resposta.style.display = 'block';
     }
